@@ -11,26 +11,26 @@ const PlaceOrder = () => {
   return (
     <form className='place-order'>
       <div className='place-order-left'>
-        <p className='title'>Delivery Information</p>
+        <p className='title'>Información de entrega</p>
         <div className='multi-fields'>
-        <input type="text" placeholder='First Name' />
-        <input type="text" placeholder='Last Name' />
+        <input type="text" placeholder='Nombre' />
+        <input type="text" placeholder='Apellido' />
         </div>
-        <input type="Email" placeholder='Email address' />
-        <input type="text" placeholder='Street' />
+        <input type="Email" placeholder='Direccion de Correo' />
+        <input type="text" placeholder='Calle' />
         <div className="multi-fields">
-        <input type="text" placeholder='City' />
-        <input type="text" placeholder='State' />
+        <input type="text" placeholder='Ciudad' />
+        <input type="text" placeholder='Provincia' />
         </div>
         <div className="multi-fields">
-        <input type="text" placeholder='Zip code' />
-        <input type="text" placeholder='Country' />
+        <input type="text" placeholder='Codigo Zip' />
+        <input type="text" placeholder='Pais' />
         </div>
-        <input type="text" placeholder='Phone' />
+        <input type="text" placeholder='Telefono' />
       </div>
       <div className="place-order-right">
       <div className="cart-total">
-          <h2>Cart Totals</h2>
+          <h2>Totales del Carrito</h2>
           <div>
           <div className="cart-total-details">
               <p>Subtotal</p>
@@ -38,7 +38,7 @@ const PlaceOrder = () => {
             </div>
             <hr />
             <div className="cart-total-details">
-              <p>Delivery Fee</p>
+              <p>Tarifa de entrega</p>
               <p>${getTotalCartAmount()===0?0:2}</p>
             </div>
             <hr />
@@ -47,7 +47,7 @@ const PlaceOrder = () => {
               <b>${getTotalCartAmount()===0?0:getTotalCartAmount()+2}</b>
             </div>
           </div>
-          <button>PROCEED TO PAYMENT</button>
+          <button>PROCEDER AL PAGO</button>
         </div>
       </div>
       

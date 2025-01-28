@@ -5,9 +5,9 @@ const Header = () => {
   return (
     <div className='Header' class="header">
       <div className="header-contents">
-        <h2>Order your favourite food here</h2>
-        <p>Experience the convenience of food delivery at your fingertips with our app. Order now and enjoy delicious meals delivered straight to your door.</p>
-        <button>View Menu</button>
+        <h2>Pide tu comida favorita aquí</h2>
+        <p>Experimente la comodidad de la entrega de comida a domicilio a su alcance con nuestra aplicación. Haga su pedido ahora y disfrute de comidas deliciosas entregadas directamente a su puerta.</p>
+        <button>Ver Restaurantes</button>
       </div>
     </div>
   )

@@ -14,19 +14,19 @@ const LoginPopup = ({setShowLogin}) => {
 
             </div>
             <div className="login-popup-inputs">
-                {currState==="Login"?<></>:<input type="text" placeholder='Your name' required />}
+                {currState==="Login"?<></>:<input type="text" placeholder='Tu nombre' required />}
                 
-                <input type="email" placeholder='Your email' required />
-                <input type="password" placeholder='Password' required />
+                <input type="email" placeholder='Tu email' required />
+                <input type="password" placeholder='Contraseña' required />
             </div>
             <button>{currState==="Sign Up"?"Create Account":"Login"}</button>
             <div className='login-popup-condition'>
                 <input type="checkbox" required/>
-                <p>By continuing, i agree to the terms of use & privacy policy.</p>
+                <p>Al continuar, acepto los términos de uso y la política de privacidad.</p>
             </div>
             {currState==="Login"
-            ?<p>Create a new account? <span onClick={()=>setCurrState("Sign Up")}>Click Here</span></p>
-            :<p>Already have an account? <span onClick={()=>setCurrState("Login")}>Login here</span></p>
+            ?<p>¿Crear una nueva cuenta? <span onClick={()=>setCurrState("Sign Up")}>Click Aqui</span></p>
+            :<p>¿Ya tienes una cuenta? <span onClick={()=>setCurrState("Login")}>Inicia sesión aquí</span></p>
             }
             
             

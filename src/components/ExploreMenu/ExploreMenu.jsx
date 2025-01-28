@@ -4,8 +4,8 @@ import { menu_list } from '../../assets/assets'
 const ExploreMenu = ({category,setCategory}) => {
   return (
     <div className='explore-menu' id='explore-menu'>
-        <h1>Explora nuestro menu</h1>
-        <p className='explore-menu-text'>Experience the convenience of food delivery at your fingertips with our app. Order now and enjoy delicious meals delivered straight to your door.</p>
+        <h1>Explora nuestros restaurantes</h1>
+        <p className='explore-menu-text'>Experimente la comodidad de la entrega de comida a domicilio a su alcance con nuestra aplicación. Haga su pedido ahora y disfrute de comidas deliciosas entregadas directamente a su puerta.</p>
         <div className="explore-menu-list">
             {menu_list.map((item,index)=>{
                 return (

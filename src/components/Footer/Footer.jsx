@@ -8,7 +8,7 @@ const Footer = () => {
         <div className="footer-content">
             <div className='footer-content-left'>
                 <img className='logo-white' src={assets.logo_white} alt="" />
-                <p>Welcome to Tomato, your ultimate solution for fast and reliable food ordering and delivery! Our application is designed to connect food enthusiasts with their favorite restaurants and provide a seamless ordering experience. With Tomato, you can explore a wide variety of cuisines, customize your orders, and enjoy fast deliveries right to your doorstep.</p>
+                <p>¡Bienvenido a FoodDeliveryEC, tu solución definitiva para realizar pedidos y entregas de comida de manera rápida y confiable! Nuestra aplicación está diseñada para conectar a los entusiastas de la comida con sus restaurantes favoritos y brindar una experiencia de pedido perfecta. Con FoodDeliveryEC, puedes explorar una amplia variedad de cocinas, personalizar tus pedidos y disfrutar de entregas rápidas directamente a tu puerta.</p>
                 <div className='footer-social-icons'>
                     <img src={assets.facebook_icon} alt="" />
                     <img src={assets.twitter_icon} alt="" />
@@ -16,25 +16,27 @@ const Footer = () => {
                 </div>
             </div>
             <div className='footer-content-center'>
-                <h2>COMPANY</h2>
+                <h2>COMPAÑIA</h2>
                 <ul>
                     <li>Home</li>
-                    <li>About us</li>
+                    <li>Sobre Nosotros</li>
                     <li>Delivery</li>
-                    <li>Privacy policy</li>
+                    <li>Política de privacidad</li>
                 </ul>
             </div>
             <div className='footer-content-right'>
-                <h2>GET IN TOUCH</h2>
+                <h2>CONTÁCTENOS</h2>
                 <ul>
-                    <li>+54 11-3825 -5413</li>
-                    <li>pablodomingo19935@gmail.com</li>
+                    <li>+593 96 885 5639</li>
+                    <li>davidcepeda751@gmail.com</li>
+                    <li>+593 99 511 4978</li>
+                    <li>isaoña@gmail.com</li>
                 </ul>
             </div>
             
         </div>
         <hr />
-        <p className="footer-copyright">Coded by ® Pablo Domingo</p>
+        <p className="footer-copyright">®Usabilidad 2025 </p>
       
     </div>
   )
